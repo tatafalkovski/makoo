@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Makoo</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <header class="header">
@@ -19,7 +21,14 @@
                     <li class="nav__item"><a href="#">BLOG</a></li>
                 </ul>
                 <ul class="nav__right">
-
+                    <li class="nav__item">
+                        <select name="lang" class="lang">
+                            <option selected disabled hidden>🌐</option>
+                            <option value="Eng">En</option>
+                            <option value="Rus">Ru</option>
+                        </select>
+                    </li>
+                    <li class="account"><a href="#">MY ACCOUNT</a></li>
                 </ul>
             </nav>
         </div> 
@@ -28,5 +37,89 @@
         <h1>makoo</h1>
         <p>Your catchy generic makoo strapline will go here</p>
     </section>
+    <section class="container">
+        <div class="counter-section">
+            <div class="counter-block">
+                <img src="images/people.png" alt="people">
+                <div class="counter">3,000</div>
+                <div class="counter-type">Agents</div>
+            </div>
+            <div class="counter-block with-border">
+                <img src="images/house.png" alt="house">
+                <div class="counter">250,000</div>
+                <div class="counter-type">Properties</div>
+            </div>
+            <div class="counter-block">
+                <img src="images/planet.png" alt="planet">
+                <div class="counter">13</div>
+                <div class="counter-type">Countries</div>
+            </div>
+        </div>
+    </section>
+    <h5 class="text-center">Makoo has properties in countries across Europe</h5>
+    <section class="container container--exceed">
+        <div class="images">
+            <div class="image">
+                <img src="images/spain.png" alt="Spain">
+                <p>SPAIN</p>
+            </div>
+            <div class="image">
+                <img src="images/france.png" alt="France">
+                <p>FRANCE</p>
+            </div>
+            <div class="image">
+                <img src="images/italy.png" alt="Italy">
+                <p>ITALY</p>
+            </div>
+            <div class="image">
+                <img src="images/gefmany.png" alt="Germany">
+                <p>GERMANY</p>
+            </div>
+            <div class="image">
+                <img src="images/portugal.png" alt="Portugal">
+                <p>PORTUGAL</p>
+            </div>
+            <div class="image">
+                <img src="images/switzerland.png" alt="Switzerland">
+                <p>SWITZERLAND</p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="about-us">
+            <div class="text">
+                <h5>What we’re all about..</h5>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy </p>
+                <p>eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam </p>
+                <p>voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet </p>
+                <p>clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
+                <p>amet.</p>
+                <br>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd </p>
+                <p>gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero </p>
+                <p>eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, </p>
+                <p>no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                <div class="button">LOG IN</div>
+            </div>
+            <div class="image-comp">
+                <img src="images/i-mac.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="info">
+                <p>© 2019 All Rights Reserved</p>
+                <p>Terms & conditions</p>
+            </div>
+            <div class="follow">
+                <p>Follow us on:</p>
+                <div class="social-icons">
+                    <i class="icon"><img src="images/facebook.svg"></i>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
